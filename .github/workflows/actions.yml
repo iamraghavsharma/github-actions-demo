@@ -3,7 +3,7 @@ name: Actions Worflow
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   run-github-actions:
     runs-on: ubuntu-latest
